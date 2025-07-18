@@ -1,0 +1,16 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.statsText {
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.noResults {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+}

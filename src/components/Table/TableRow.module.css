@@ -1,0 +1,13 @@
+.tableRow {
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tableRow:hover {
+  background-color: #f0f0f0;
+}
+
+.tableCell {
+  padding: 10px;
+  border: 1px solid #ddd;
+}

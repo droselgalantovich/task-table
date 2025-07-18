@@ -1,0 +1,75 @@
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modalTitle {
+  margin: 0;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modalBody {
+  display: flex;
+  gap: 20px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.userInfo {
+  flex: 1;
+}
+
+.userName {
+  margin: 0 0 15px 0;
+}
+
+.infoGrid {
+  display: grid;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.addressSection {
+  margin-top: 15px;
+}
+
+.addressContent {
+  margin-left: 10px;
+  margin-top: 5px;
+}

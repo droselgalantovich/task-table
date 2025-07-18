@@ -1,6 +1,8 @@
 import type {User} from '../types/user';
 import type {SortOrder} from '../types/filters';
 
+export type {SortOrder} from '../types/filters';
+
 export function sortUsers(
   users: User[],
   sortKey: string | null,
